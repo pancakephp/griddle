@@ -1,7 +1,7 @@
 {
-    "name": "pancakephp/framework",
-    "description": "The Pancake Framework",
-    "keywords": ["framework", "pancake", "pancakephp"],
+    "name": "pancakephp/griddle",
+    "description": "The Pancake Framework Griddle",
+    "keywords": ["pancake", "pancakephp", "framework", "griddle"],
     "authors": [
         {
             "name": "Aaron Lord",
@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-0": {
-            "Pancake": "src/"
+            "Griddle": "src/"
         }
     }
 }
