@@ -1,7 +1,7 @@
 {
-    "name": "pancake/framework",
+    "name": "pancakephp/framework",
     "description": "The Pancake Framework",
-    "keywords": ["framework", "pancake"],
+    "keywords": ["framework", "pancake", "pancakephp"],
     "authors": [
         {
             "name": "Aaron Lord",
