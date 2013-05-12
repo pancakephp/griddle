@@ -1,0 +1,16 @@
+{
+    "name": "pancake/framework",
+    "description": "The Pancake Framework",
+    "keywords": ["framework", "pancake"],
+    "authors": [
+        {
+            "name": "Aaron Lord",
+            "email": "aaronlord1@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Pancake": "src/"
+        }
+    }
+}
