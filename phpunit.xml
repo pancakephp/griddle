@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit backupGlobals="false"
          backupStaticAttributes="false"
-         bootstrap="autoload.php"
          colors="true"
          convertErrorsToExceptions="true"
          convertNoticesToExceptions="true"
@@ -11,8 +10,14 @@
          syntaxCheck="false"
 >
     <testsuites>
-        <testsuite name="Griddle Test Suite">
-            <directory>./tests/</directory>
+        <testsuite name="Pancake Griddle Tests">
+            <directory suffix="Test.php">Tests</directory>
         </testsuite>
     </testsuites>
+
+    <filter>
+        <whitelist addUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">Src</directory>
+        </whitelist>
+    </filter>
 </phpunit>

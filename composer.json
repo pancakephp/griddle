@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Griddle": "src/"
+            "Griddle": "Src/"
         }
     }
 }

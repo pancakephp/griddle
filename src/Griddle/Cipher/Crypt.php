@@ -4,19 +4,18 @@
  * @copyright   (c) 2013 Aaron Lord
  */
 
-namespace Griddle\Security;
+namespace Griddle\Cipher;
 
-class Hash
+class Crypt
 {
 
-    public function make($value)
+    public function encrypt($value)
     {
 
     }
 
-    public function check($value, $hash)
+    public function decrypt($value)
     {
 
     }
-
 }
