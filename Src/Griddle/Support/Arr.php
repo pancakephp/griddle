@@ -8,13 +8,27 @@ namespace Griddle\Support;
 
 class Arr
 {
-    public static function only($array, $keys)
+
+    /**
+     * Gets a subset of items from the array, only containing the given key(s)
+     * @param  array            $array
+     * @param  array|string     $keys
+     * @return array
+     */
+    public static function only(Array $array, $keys)
     {
         return array_intersect_key($array, array_flip((array) $keys));
     }
 
-    public static function without($array, $keys)
+    /**
+     * Gets a subset of items from the array, without the given key(s)
+     * @param  array            $array
+     * @param  array|string     $keys
+     * @return array
+     */
+    public static function without(Array $array, $keys)
     {
         return array_diff_key($array, array_flip((array) $keys));
     }
+
 }
